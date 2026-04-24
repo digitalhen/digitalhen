@@ -8,7 +8,7 @@ My background is a bit unusual. I studied Computer Science at Exeter, spent a de
 
 My focus right now is AI product strategy. I spend a lot of my time thinking about how news and publishing adapt when the interface shifts from search to conversation — what I've been calling "Subscriptions on Rails" and distributed paywalls for AI platforms. At Reuters we built multi-LLM content validation, AI-powered notifications that hit 5–10x industry engagement benchmarks, and a personalization framework that delivered a 10x engagement lift. I co-founded our AI Governance Committee to give editorial a genuine veto on AI features — which counterintuitively made shipping faster, not slower.
 
-Outside the day job, I ship. [Transcord](https://transcord.app) is an AI call recording and transcription platform I've bootstrapped for six years. [CEDAR Co-Parenting](https://mcp.cedarcoparenting.com) is an NLP/sentiment pipeline for court-ordered communications, built as a native MCP server into Claude. [Cleartext Labs](https://cleartextlabs.app) is where I prototype whatever I'm curious about — Chrome extensions, steganography experiments, automation frameworks. I also built an app-review analysis tool processing 40,000+ reviews across eight news publications, used for competitive intelligence. The through-line: I don't just manage products, I build them.
+Outside the day job, I ship. [Transcord](https://transcord.app) is an AI call recording and transcription platform I've bootstrapped for six years. [CEDAR Co-Parenting](https://cedarcoparenting.com) is an NLP/sentiment pipeline for court-ordered communications, built as a native MCP server into Claude. [Cleartext Labs](https://cleartextlabs.app) is where I prototype whatever I'm curious about — Chrome extensions, steganography experiments, automation frameworks. I also built an app-review analysis tool processing 40,000+ reviews across eight news publications, used for competitive intelligence. The through-line: I don't just manage products, I build them.
 
 Beyond the keyboard I travel as much as I can. I've spent stretches working as a digital nomad, and have lived in five countries across three continents. If you want to chat product, AI, MCP servers, journalism-meets-technology, or where to get the best ramen in Tokyo, I'm easy to find.
 
@@ -25,7 +25,7 @@ Beyond the keyboard I travel as much as I can. I've spent stretches working as a
 ### [Transcord](https://transcord.app)
 AI-powered call recording, transcription, and semantic search. Bootstrapped since 2018. Processes 300+ minutes daily. MCP server lets LLMs query transcripts directly.
 
-### [CEDAR Co-Parenting](https://mcp.cedarcoparenting.com)
+### [CEDAR Co-Parenting](https://cedarcoparenting.com)
 NLP and sentiment-analysis pipeline for co-parenting communications. 9,900+ emails analysed, 60+ court-order provisions mapped, pattern detection and compliance monitoring. Built as a native MCP server.
 
 ### [Cleartext Labs](https://cleartextlabs.app)

@@ -1,35 +1,61 @@
-# Hi, I'm Henry Williams
+# Hi, I'm Henry 👋
 
-### My links [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=Linkedin&logoColor=white)](https://linkedin.com/in/digitalhen) [![Website Badge](https://img.shields.io/badge/-digitalhen.com-24292e?style=flat-square&logo=google-chrome&logoColor=white)](https://digitalhen.com)
+**A product leader who still writes the code.** I run consumer product at Reuters. In my own time I build AI tools, MCP servers and explorers for New York City's public data.
 
-My name is Henry Williams and I'm a product leader who builds. By day I'm Interim Director of Consumer Product at Reuters, where I lead a team shipping AI-powered products to millions of users. By night — and weekends, and early mornings — I build things: MCP servers, AI tools, bootstrapped SaaS, and whatever experiment is teaching me the most that week.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-digitalhen-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/digitalhen)
+[![Website](https://img.shields.io/badge/Web-digitalhen.com-24292e?style=flat-square&logo=googlechrome&logoColor=white)](https://digitalhen.com)
+[![Cleartext Labs](https://img.shields.io/badge/Lab-cleartextlabs.app-3b7a57?style=flat-square)](https://cleartextlabs.app)
 
-My background is a bit unusual. I studied Computer Science at Exeter, spent a decade as a technologist at investment banks (Lehman, Barclays, Morgan Stanley) building real-time trading platforms across London, New York, Singapore and Hong Kong, then pivoted into journalism with a Master's at the University of Hong Kong on a Google scholarship. That led me into newsrooms (WSJ Pro, Dow Jones, Reuters) and eventually into product. The CS-plus-journalism combination turns out to be a useful one in 2026: I write technical requirements engineers respect, and I build products editorial teams actually trust.
+I studied computer science, then spent ten years building real-time trading systems at investment banks. After that I went back to school for journalism and ended up leading product in newsrooms. Both halves matter in my work: I can write a spec engineers respect, and I build products that editorial teams trust. Most of the projects below began with a question I wanted answered and a weekend free to answer it.
 
-My focus right now is AI product strategy. I spend a lot of my time thinking about how news and publishing adapt when the interface shifts from search to conversation — what I've been calling "Subscriptions on Rails" and distributed paywalls for AI platforms. At Reuters we built multi-LLM content validation, AI-powered notifications that hit 5–10x industry engagement benchmarks, and a personalization framework that delivered a 10x engagement lift. I co-founded our AI Governance Committee to give editorial a genuine veto on AI features — which counterintuitively made shipping faster, not slower.
+### What I work on
 
-Outside the day job, I ship. [Transcord](https://transcord.app) is an AI call recording and transcription platform I've bootstrapped for six years. [CEDAR Co-Parenting](https://cedarcoparenting.com) is an NLP/sentiment pipeline for court-ordered communications, built as a native MCP server into Claude. [Cleartext Labs](https://cleartextlabs.app) is where I prototype whatever I'm curious about — Chrome extensions, steganography experiments, automation frameworks. I also built an app-review analysis tool processing 40,000+ reviews across eight news publications, used for competitive intelligence. The through-line: I don't just manage products, I build them.
+- 📰 **AI and the news.** How publishing adapts as people move from search to conversation. That covers distributed paywalls for AI platforms ("Subscriptions on Rails"), checking content with multiple LLMs, and AI features that editors actually approve.
+- 🔌 **MCP servers.** Connecting Claude to the things I use every day: my inbox, my router, my car and public records.
+- 🗽 **New York City open data.** Maps and explorers built on city datasets: 9/11 records, building footprints, power outages and subway feeds.
+- 🏠 **Local-first AI.** On-device embeddings and local models, so your data doesn't have to leave your machine.
+- 🛠️ **Small tools that fix one annoyance each.** Menu bar apps, browser extensions and a Garmin watch face.
 
-Beyond the keyboard I travel as much as I can. I've spent stretches working as a digital nomad, and have lived in five countries across three continents. If you want to chat product, AI, MCP servers, journalism-meets-technology, or where to get the best ramen in Tokyo, I'm easy to find.
+### Products
 
-## Skills
+| | |
+|---|---|
+| **[Transcord](https://transcord.app)** | Records, transcribes and searches phone calls with AI. Bootstrapped since 2018. Its MCP server lets LLMs query your transcripts directly. |
+| **[CEDAR Co-Parenting](https://cedarcoparenting.com)** | Sentiment analysis and court-ready reports for co-parenting communications. Built as a native MCP server. |
+| **[Cleartext Labs](https://cleartextlabs.app)** | My studio for turning experiments into products. |
 
-- **Product:** AI product strategy, 0→1, subscription & monetization, experimentation, personalization
-- **AI/ML:** Claude, MCP servers, RAG, multi-LLM validation, agentic patterns, LLM evaluation
-- **Languages:** `.py` `.js` `.ts` `.sql` (and `.java` `.cpp` in a past life)
-- **Cloud & Data:** AWS, GCP, Snowflake, CI/CD, Docker
-- **Tools most used:** Claude Code, Cursor, Figma, Snowflake, GA4, AB Tasty
+### Open source
 
-## Projects
+**MCP servers for Claude**
+- [**gmail-mcp**](https://github.com/digitalhen/gmail-mcp): a remote Gmail server with semantic search, a knowledge graph and 31 tools
+- [**opnsense-mcp**](https://github.com/digitalhen/opnsense-mcp): lets Claude run an OPNsense router (firewall, diagnostics, VPN, DNS) through 750+ API methods
+- [**bouncie-mcp**](https://github.com/digitalhen/bouncie-mcp): live GPS, trips, diagnostics and fuel data from a Bouncie OBD2 tracker, with multi-user OAuth
+- [**911records-claude**](https://github.com/digitalhen/911records-claude): searches NYC's released 9/11 records from Claude, citing original sources by Bates number
 
-### [Transcord](https://transcord.app)
-AI-powered call recording, transcription, and semantic search. Bootstrapped since 2018. Processes 300+ minutes daily. MCP server lets LLMs query transcripts directly.
+**Civic data and maps**
+- [**911records**](https://github.com/digitalhen/911records): an independent explorer of NYC's released 9/11 records, live at [911records.nyc](https://911records.nyc)
+- [**blocklight**](https://github.com/digitalhen/blocklight): turns building footprints and JSON records into interactive city maps, using TypeScript and MapLibre GL, MIT-licensed
+- [**coned-tracker**](https://github.com/digitalhen/coned-tracker): tracks Con Edison outages live, with a map, timelines and history
 
-### [CEDAR Co-Parenting](https://cedarcoparenting.com)
-NLP and sentiment-analysis pipeline for co-parenting communications. 9,900+ emails analysed, 60+ court-order provisions mapped, pattern detection and compliance monitoring. Built as a native MCP server.
+**Local-first and privacy**
+- [**lume-story-discovery**](https://github.com/digitalhen/lume-story-discovery): a Firefox extension that suggests what to read next by embedding your pages on your own device, with no telemetry and no cloud inference
+- [**tab-tunnel**](https://github.com/digitalhen/tab-tunnel): split tunneling for Firefox, sending chosen tabs through a SOCKS5 or WireGuard VPN based on the domain
+- [**synology-s3**](https://github.com/digitalhen/synology-s3): turns a Synology NAS into an S3-compatible endpoint, with a native admin app
 
-### [Cleartext Labs](https://cleartextlabs.app)
-AI research and experimental tooling — rapid prototyping for product concepts. Chrome extensions, steganography systems, automation frameworks.
+**Built for myself**
+- [**bike-bar**](https://github.com/digitalhen/bike-bar): Bosch eBike Flow data in the macOS menu bar, plus a dashboard, a REST API and webhooks
+- [**orbital**](https://github.com/digitalhen/orbital): a macOS menu bar app with live Artemis II telemetry
+- [**burndown**](https://github.com/digitalhen/burndown-garmin-watchface): a Garmin watch face that shows Body Battery as a grid of squares
+- [**dev-setup**](https://github.com/digitalhen/dev-setup): sets up a Mac or Windows machine for Claude Code development with one command
 
-### App Review Analysis Tool
-MCP server analysing 40,000+ app-store reviews across 8 news publications (Bloomberg, NYT, WSJ, CNN, BBC, AP, and others). Sentiment, theme extraction, persona clustering.
+### About me
+
+- 🎯 **Now:** Interim Director of Consumer Product at **Reuters**. We built AI-powered notifications that reached 5–10x industry engagement benchmarks, plus a personalization framework that increased engagement 10x. I co-founded our AI Governance Committee, which gives editorial a real veto over AI features. That ended up making us ship faster, not slower.
+- 🗞️ **Before that:** product and newsroom roles at **WSJ Pro** and **Dow Jones**.
+- 💹 **Before that:** ten years as a technologist at **Lehman, Barclays and Morgan Stanley**, building real-time trading platforms in London, New York, Singapore and Hong Kong.
+- 🎓 **Education:** Computer Science at Exeter. A journalism Master's at the University of Hong Kong on a Google scholarship.
+- 🌏 I've lived in five countries on three continents. I'm happy to talk about product, AI, MCP, journalism and tech, or where to find the best ramen in Tokyo.
+
+### Toolbox
+
+`TypeScript` `Python` `SQL` `Swift` · `Next.js` `Postgres` `MapLibre` `Docker` · `Claude` `MCP` `RAG` `LLM evals` · `AWS` `GCP` `Snowflake`

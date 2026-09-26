@@ -1,6 +1,6 @@
 # Hi, I'm Henry 👋
 
-**A product leader who still writes the code.** I run consumer product at Reuters. In my own time I build AI tools, MCP servers and explorers for New York City's public data.
+**A product leader who still writes the code.** I run consumer product at Reuters. In my own time I build AI tools, connectors that let Claude use my apps and data, and explorers for New York City's public data.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-digitalhen-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/digitalhen)
 [![Website](https://img.shields.io/badge/Web-digitalhen.com-24292e?style=flat-square&logo=googlechrome&logoColor=white)](https://digitalhen.com)
@@ -11,7 +11,7 @@ I studied computer science, then spent ten years building real-time trading syst
 ### What I work on
 
 - 📰 **AI and the news.** How publishing adapts as people move from search to conversation. That covers distributed paywalls for AI platforms ("Subscriptions on Rails"), checking content with multiple LLMs, and AI features that editors actually approve.
-- 🔌 **MCP servers.** Connecting Claude to the things I use every day: my inbox, my router, my car and public records.
+- 🔌 **Giving Claude access to real things.** Connectors that let Claude search my inbox, check my home network, see where my car is and look through public records, so I can just ask it.
 - 🗽 **New York City open data.** Maps and explorers built on city datasets: 9/11 records, building footprints, power outages and subway feeds.
 - 🏠 **Local-first AI.** On-device embeddings and local models, so your data doesn't have to leave your machine.
 - 🛠️ **Small tools that fix one annoyance each.** Menu bar apps, browser extensions and a Garmin watch face.
@@ -20,16 +20,16 @@ I studied computer science, then spent ten years building real-time trading syst
 
 | | |
 |---|---|
-| **[Transcord](https://transcord.app)** | Records, transcribes and searches phone calls with AI. Bootstrapped since 2018. Its MCP server lets LLMs query your transcripts directly. |
-| **[CEDAR Co-Parenting](https://cedarcoparenting.com)** | Sentiment analysis and court-ready reports for co-parenting communications. Built as a native MCP server. |
+| **[Transcord](https://transcord.app)** | Records, transcribes and searches phone calls with AI. Bootstrapped since 2018. You can search your calls straight from Claude. |
+| **[CEDAR Co-Parenting](https://cedarcoparenting.com)** | Sentiment analysis and court-ready reports for co-parenting communications. Works directly inside Claude. |
 | **[Cleartext Labs](https://cleartextlabs.app)** | My studio for turning experiments into products. |
 
 ### Open source
 
-**MCP servers for Claude**
-- [**gmail-mcp**](https://github.com/digitalhen/gmail-mcp): a remote Gmail server with semantic search, a knowledge graph and 31 tools
-- [**opnsense-mcp**](https://github.com/digitalhen/opnsense-mcp): lets Claude run an OPNsense router (firewall, diagnostics, VPN, DNS) through 750+ API methods
-- [**bouncie-mcp**](https://github.com/digitalhen/bouncie-mcp): live GPS, trips, diagnostics and fuel data from a Bouncie OBD2 tracker, with multi-user OAuth
+**Connecting Claude to my apps and data**
+- [**gmail-mcp**](https://github.com/digitalhen/gmail-mcp): Claude can search your Gmail by what an email means, not just the words in it
+- [**opnsense-mcp**](https://github.com/digitalhen/opnsense-mcp): Claude can check and manage a home router: firewall, VPN, DNS and "why is the internet slow?"
+- [**bouncie-mcp**](https://github.com/digitalhen/bouncie-mcp): Claude can tell you where your car is, where it's been and how it's running, using a Bouncie tracker
 - [**911records-claude**](https://github.com/digitalhen/911records-claude): searches NYC's released 9/11 records from Claude, citing original sources by Bates number
 
 **Civic data and maps**
@@ -54,7 +54,7 @@ I studied computer science, then spent ten years building real-time trading syst
 - 🗞️ **Before that:** product and newsroom roles at **WSJ Pro** and **Dow Jones**.
 - 💹 **Before that:** ten years as a technologist at **Lehman, Barclays and Morgan Stanley**, building real-time trading platforms in London, New York, Singapore and Hong Kong.
 - 🎓 **Education:** Computer Science at Exeter. A journalism Master's at the University of Hong Kong on a Google scholarship.
-- 🌏 I've lived in five countries on three continents. I'm happy to talk about product, AI, MCP, journalism and tech, or where to find the best ramen in Tokyo.
+- 🌏 I've lived in five countries on three continents. I'm happy to talk about product, AI, journalism and tech, or where to find the best ramen in Tokyo.
 
 ### Toolbox
 

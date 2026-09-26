@@ -1,61 +1,46 @@
 # Hi, I'm Henry 👋
 
-**A product leader who still writes the code.** I run consumer product at Reuters. In my own time I build AI tools, connectors that let Claude use my apps and data, and explorers for New York City's public data.
+**Product leader for AI and consumer subscriptions, and an engineer by training.** I'm Interim Director, Consumer Product at Reuters, where I run the consumer portfolio across mobile, AI, podcasts and partnerships. I still write production code, and the projects below are how I stay sharp.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-digitalhen-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/digitalhen)
 [![Website](https://img.shields.io/badge/Web-digitalhen.com-24292e?style=flat-square&logo=googlechrome&logoColor=white)](https://digitalhen.com)
 [![Cleartext Labs](https://img.shields.io/badge/Lab-cleartextlabs.app-3b7a57?style=flat-square)](https://cleartextlabs.app)
 
-I studied computer science, then spent ten years building real-time trading systems at investment banks. After that I went back to school for journalism and ended up leading product in newsrooms. Both halves matter in my work: I can write a spec engineers respect, and I build products that editorial teams trust. Most of the projects below began with a question I wanted answered and a weekend free to answer it.
+### What I've shipped at Reuters
 
-### What I work on
+- **AI distribution.** Search referrals were falling across the news industry. I built the analysis that showed Reuters was the most-cited news organization on ChatGPT (60% of citations), with those readers converting at 3x the rate of Google search visitors. Then I designed and shipped **Subscriptions on Rails**, a paywall that follows readers to wherever they find Reuters: third-party publishers, the Reuters ChatGPT app, and the connectors that give AI assistants access to Reuters news.
+- **Subscriptions.** I launched consumer subscriptions on mobile and web from zero. Making Apple Pay and one-tap sign-up the default raised paywall conversion 7.5x, from 0.2% to 1.5%.
+- **Personalization.** I built a recommendation engine prototype myself, then shipped it to Reuters.com as **Read Next**. Readers now go on to 20% more stories, and people who used to leave after one article subscribe 22% more often.
+- **AI that editors trust.** I shipped AI-powered push notifications that reach a 10% click-through rate, against a 1–2% norm for news apps, with no editorial corrections since launch. I led the design of **Cross Check**, which validates AI output across several models before it reaches readers. Working with Reuters' AI Governance Committee, I helped give editors a real veto over AI features, and editorial pushback fell 80%.
+- **How the team ships.** I built an AI-assisted development pipeline, running from design through Figma and Claude Code to automated tests and production, and the whole mobile team now ships on it. I also grew the product team from zero to three PMs.
 
-- 📰 **AI and the news.** How publishing adapts as people move from search to conversation. That covers distributed paywalls for AI platforms ("Subscriptions on Rails"), checking content with multiple LLMs, and AI features that editors actually approve.
-- 🔌 **Giving Claude access to real things.** Connectors that let Claude search my inbox, check my home network, see where my car is and look through public records, so I can just ask it.
-- 🗽 **New York City open data.** Maps and explorers built on city datasets: 9/11 records, building footprints, power outages and subway feeds.
-- 🏠 **Local-first AI.** On-device embeddings and local models, so your data doesn't have to leave your machine.
-- 🛠️ **Small tools that fix one annoyance each.** Menu bar apps, browser extensions and a Garmin watch face.
+### What I build on my own
 
-### Products
+I founded **Cleartext Labs** in 2018 to build my own products end to end. So far that's three multi-tenant SaaS platforms and seven production connectors that let Claude work with real systems (MCP servers).
 
 | | |
 |---|---|
-| **[Transcord](https://transcord.app)** | Records, transcribes and searches phone calls with AI. Bootstrapped since 2018. You can search your calls straight from Claude. |
-| **[CEDAR Co-Parenting](https://cedarcoparenting.com)** | Sentiment analysis and court-ready reports for co-parenting communications. Works directly inside Claude. |
-| **[Cleartext Labs](https://cleartextlabs.app)** | My studio for turning experiments into products. |
+| **[Transcord](https://transcord.app)** | Call recording and transcription for journalists, with speaker separation and semantic search. Bootstrapped solo for six years. You can search your calls straight from Claude. |
+| **[CEDAR](https://cedarcoparenting.com)** | Co-parenting communication platform with separate access for parents, attorneys, mediators and courts. It checks messages against court-order provisions and works directly inside Claude. |
+| **userken.** | Turns App Store and Google Play reviews into a searchable knowledge base, with synthetic personas you can interview. It has indexed 40,000+ reviews across eight news publishers. |
 
-### Open source
+**Open source**
+- [**911records**](https://github.com/digitalhen/911records): an independent explorer for NYC's released 9/11 records, live at [911records.nyc](https://911records.nyc). [**911records-claude**](https://github.com/digitalhen/911records-claude) lets you search the same records from Claude, with citations to the original documents.
+- [**blocklight**](https://github.com/digitalhen/blocklight): an MIT-licensed TypeScript library that turns building footprints and JSON records into interactive city maps
+- [**gmail-mcp**](https://github.com/digitalhen/gmail-mcp): lets Claude search your Gmail by meaning, so it finds the right email even when you can't remember its wording
+- [**opnsense-mcp**](https://github.com/digitalhen/opnsense-mcp): lets Claude check and manage a home router's firewall, VPN and DNS
+- [**lume-story-discovery**](https://github.com/digitalhen/lume-story-discovery): a Firefox extension that recommends what to read next using embeddings computed on your own device, with no cloud and no tracking
+- **For fun:** [bike-bar](https://github.com/digitalhen/bike-bar) (eBike stats in the Mac menu bar), [orbital](https://github.com/digitalhen/orbital) (live Artemis II telemetry), [tab-tunnel](https://github.com/digitalhen/tab-tunnel) (per-tab VPN routing), [a Garmin watch face](https://github.com/digitalhen/burndown-garmin-watchface)
 
-**Connecting Claude to my apps and data**
-- [**gmail-mcp**](https://github.com/digitalhen/gmail-mcp): Claude can search your Gmail by what an email means, not just the words in it
-- [**opnsense-mcp**](https://github.com/digitalhen/opnsense-mcp): Claude can check and manage a home router: firewall, VPN, DNS and "why is the internet slow?"
-- [**bouncie-mcp**](https://github.com/digitalhen/bouncie-mcp): Claude can tell you where your car is, where it's been and how it's running, using a Bouncie tracker
-- [**911records-claude**](https://github.com/digitalhen/911records-claude): searches NYC's released 9/11 records from Claude, citing original sources by Bates number
+### Background
 
-**Civic data and maps**
-- [**911records**](https://github.com/digitalhen/911records): an independent explorer of NYC's released 9/11 records, live at [911records.nyc](https://911records.nyc)
-- [**blocklight**](https://github.com/digitalhen/blocklight): turns building footprints and JSON records into interactive city maps, using TypeScript and MapLibre GL, MIT-licensed
-- [**coned-tracker**](https://github.com/digitalhen/coned-tracker): tracks Con Edison outages live, with a map, timelines and history
+- **Engineer.** BSc in Computer Science from Exeter, then ten years (2002–2012) at Lehman Brothers, Barclays Capital and Morgan Stanley, rising from Associate to Vice President. I built real-time trading platforms in London, New York, Singapore and Hong Kong.
+- **Journalist.** Master of Journalism from the University of Hong Kong on a full Google scholarship. Then Deputy Editor at WSJ Pro, where I launched WSJ Pro Artificial Intelligence, a B2B subscription product that reached 50,000 users on its first day.
+- **Product.** Director, Strategic Initiatives at Dow Jones, then Reuters from 2022.
+- I've lived in five countries on three continents. Happy to talk about AI products, subscriptions, news, or where to find the best ramen in Tokyo.
 
-**Local-first and privacy**
-- [**lume-story-discovery**](https://github.com/digitalhen/lume-story-discovery): a Firefox extension that suggests what to read next by embedding your pages on your own device, with no telemetry and no cloud inference
-- [**tab-tunnel**](https://github.com/digitalhen/tab-tunnel): split tunneling for Firefox, sending chosen tabs through a SOCKS5 or WireGuard VPN based on the domain
-- [**synology-s3**](https://github.com/digitalhen/synology-s3): turns a Synology NAS into an S3-compatible endpoint, with a native admin app
+### Skills
 
-**Built for myself**
-- [**bike-bar**](https://github.com/digitalhen/bike-bar): Bosch eBike Flow data in the macOS menu bar, plus a dashboard, a REST API and webhooks
-- [**orbital**](https://github.com/digitalhen/orbital): a macOS menu bar app with live Artemis II telemetry
-- [**burndown**](https://github.com/digitalhen/burndown-garmin-watchface): a Garmin watch face that shows Body Battery as a grid of squares
-- [**dev-setup**](https://github.com/digitalhen/dev-setup): sets up a Mac or Windows machine for Claude Code development with one command
+**Product:** AI product strategy · 0→1 launches · subscriptions and monetization · personalization · experimentation · responsible AI
 
-### About me
-
-- 🎯 **Now:** Interim Director of Consumer Product at **Reuters**. We built AI-powered notifications that reached 5–10x industry engagement benchmarks, plus a personalization framework that increased engagement 10x. I co-founded our AI Governance Committee, which gives editorial a real veto over AI features. That ended up making us ship faster, not slower.
-- 🗞️ **Before that:** product and newsroom roles at **WSJ Pro** and **Dow Jones**.
-- 💹 **Before that:** ten years as a technologist at **Lehman, Barclays and Morgan Stanley**, building real-time trading platforms in London, New York, Singapore and Hong Kong.
-- 🎓 **Education:** Computer Science at Exeter. A journalism Master's at the University of Hong Kong on a Google scholarship.
-- 🌏 I've lived in five countries on three continents. I'm happy to talk about product, AI, journalism and tech, or where to find the best ramen in Tokyo.
-
-### Toolbox
-
-`TypeScript` `Python` `SQL` `Swift` · `Next.js` `Postgres` `MapLibre` `Docker` · `Claude` `MCP` `RAG` `LLM evals` · `AWS` `GCP` `Snowflake`
+**Technical:** `TypeScript` `Python` `SQL` `Swift` · `Next.js` `Postgres` `Snowflake` · `Claude Code` `MCP` `RAG` `LLM evals` · `AWS` `GCP` `Docker`

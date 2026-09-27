@@ -5,7 +5,7 @@
 I like understanding the larger task someone is trying to complete. A search, a notification or a recommendation is one step towards it. My work is about helping people make progress.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-digitalhen-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/digitalhen)
-[![Website](https://img.shields.io/badge/Web-digitalhen.com-24292e?style=flat-square&logo=googlechrome&logoColor=white)](https://digitalhen.com)
+[![Website](https://img.shields.io/badge/Portfolio-digitalhen.com-24292e?style=flat-square&logo=googlechrome&logoColor=white)](https://digitalhen.com)
 [![Cleartext Labs](https://img.shields.io/badge/Lab-cleartextlabs.com-3b7a57?style=flat-square)](https://cleartextlabs.com)
 
 ### At Reuters
